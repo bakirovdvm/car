@@ -8,7 +8,7 @@ def car_list(request):
 	# return HttpResponse('salem world!')
 	return render(request, 'car/car_list.html', {'cars': cars})
 
-def lexus_list(request):
-	lexus = Car.objects.filter(name_auto = 'Lexus')
-	# return HttpResponse('salem world!')
-	return render(request, 'car/car_list.html', {'lexus': lexus})
+# def lexus_list(request):
+# 	lexus = Car.objects.filter(name_auto = 'Lexus')
+# 	# return HttpResponse('salem world!')
+# 	return render(request, 'car/car_list.html', {'lexus': lexus})
